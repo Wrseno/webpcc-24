@@ -2,13 +2,14 @@ import SectionTitle from "../SectionTitle";
 
 export default function AboutSection() {
   return (
-    <div className='md:absolute md:w-[65%] lg:w-[55%] p-4 md:p-8 right-[4rem] lg:right-[8rem] bg-secondary rounded-2xl shadow-lg shadow-septenary'>
+    <div className='md:absolute md:w-[65%] lg:w-[55%] p-4 md:p-8 right-[4rem] lg:right-[8rem] bg-secondary rounded-2xl shadow-three'>
       <SectionTitle
         firstTitle='US'
         spanTitle='ABOUT'
-        useBr={false}
         textColor='text-quinary'
         spanColor='text-senary'
+        useBr={false}
+        useHr
       />
       <div className='p-2 text-senary text-center text-xs lg:text-sm'>
         <p>
