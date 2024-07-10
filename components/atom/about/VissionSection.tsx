@@ -4,22 +4,24 @@ import SectionTitle from "../SectionTitle";
 export default function VisionSection() {
   return (
     <div className='w-full flex -mt-10 gap-4 px-4 md:-mt-20 lg:gap-16 md:px-16 lg:px-32 md:pb-12'>
-      <div className='lg:w-1/2 my-auto'>
+      <div className='lg:w-1/2 my-auto rounded-3xl shadow-three'>
         <Image
           src='/images/pcc.png'
-          alt=''
+          alt='Logo PCC'
           className='w-full'
-          width={100}
-          height={100}
+          width={1000}
+          height={1000}
+          quality={100}
         />
       </div>
-      <div className='p-4 md:p-12 shadow-lg shadow-septenary rounded-2xl bg-senary'>
+      <div className='p-4 md:p-12 shadow-one rounded-2xl bg-senary'>
         <SectionTitle
           spanTitle='VISI'
           firstTitle='POLYTECHNIC'
-          useBr
           secondTitle='COMPUTER CLUB'
           spanColor='text-quinary'
+          useBr
+          useHr
         />
         <blockquote className='text-xs md:text-base text-octonary'>
           "Menjadikan UKM PCC sebagai wadah yang inofatif, adaptif, solutif,
