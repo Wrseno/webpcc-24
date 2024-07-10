@@ -3,23 +3,31 @@ interface ElementProps {
   src: string;
   alt: string;
   isLeft: boolean;
-  className?: string;
+  divClassName?: string;
+  imgClassName?: string;
 }
 
-export default function Element({src, alt, isLeft, className}: ElementProps) {
+export default function Element({
+  src,
+  alt,
+  isLeft,
+  divClassName,
+  imgClassName,
+}: ElementProps) {
   return (
-    <div className={`flex justify-between ${className}`}>
-      {!isLeft ? <span></span> : ""}
+    <div className={`flex justify-between ${divClassName}`}>
+      {!isLeft && <span></span>}
       <span>
         <Image
           src={`/images/${src}`}
           alt={alt}
-          className='w-[75px] md:w-[150px]'
-          width={100}
-          height={100}
+          className={imgClassName}
+          width={1000}
+          height={1000}
+          quality={100}
         />
       </span>
-      {isLeft ? <span></span> : ""}
+      {isLeft && <span></span>}
     </div>
   );
 }
