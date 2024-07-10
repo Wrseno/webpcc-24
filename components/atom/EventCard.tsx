@@ -1,5 +1,7 @@
 import Image from "next/image";
 import {SectionTitle} from "..";
+import {FaLocationDot} from "react-icons/fa6";
+import {BsCalendarDateFill} from "react-icons/bs";
 
 interface EventCardProps {
   title: string;
@@ -23,46 +25,57 @@ export default function EventCard({
   const firstTitle = words[1];
 
   return (
-    <div className='grid grid-cols-2 items-center gap-8 bg-primary text-xs md:text-base p-4 md:p-24'>
-      {!isEven ? (
+    <div className='grid grid-cols-2 items-center gap-8 bg-primary text-xs md:text-base p-4 md:p-24 md:py-32'>
+      {!isEven && (
         <div>
           <Image
             src={`/images/${image}`}
-            width={100}
-            height={100}
+            width={1000}
+            height={1000}
             alt={title}
-            className='w-full rounded-md'
+            quality={100}
+            className='w-full rounded-2xl'
           />
         </div>
-      ) : null}
+      )}
       <div>
         <SectionTitle
           firstTitle={firstTitle}
           spanTitle={spanTitle}
-          useBr={false}
           textColor='text-senary'
           spanColor='text-quinary'
+          useBr={false}
+          useHr
         />
         <p>{description}</p>
-        <p>{location}</p>
-        <p>{date}</p>
-        <ul>
-          <li>Software</li>
-          <li>Multimedia</li>
-          <li>Network</li>
+        <div className='flex gap-2 my-4'>
+          <div className='flex flex-wrap items-center gap-2'>
+            <FaLocationDot />
+            <p>{location}</p>
+          </div>
+          <div className='flex flex-wrap items-center gap-2'>
+            <BsCalendarDateFill />
+            <p>{date}</p>
+          </div>
+        </div>
+        <ul className='flex flex-wrap gap-4'>
+          <li className='bg-secondary p-1 px-2 rounded'>Software</li>
+          <li className='bg-teartiary p-1 px-2 rounded'>Multimedia</li>
+          <li className='bg-denary p-1 px-2 rounded'>Network</li>
         </ul>
       </div>
-      {isEven ? (
+      {isEven && (
         <div>
           <Image
             src={`/images/${image}`}
-            width={100}
-            height={100}
+            width={1000}
+            height={1000}
             alt={title}
-            className='w-full rounded-md'
+            quality={100}
+            className='w-full rounded-2xl'
           />
         </div>
-      ) : null}
+      )}
     </div>
   );
 }
