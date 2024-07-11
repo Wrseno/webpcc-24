@@ -1,7 +1,13 @@
 export {default as Header} from "./Header";
 export {default as About} from "./home/About";
-export {default as Hero} from "./home/Hero";
+export {default as Blog} from "./home/Blog";
 export {default as Event} from "./home/Event";
+export {default as Gallery} from "./home/Gallery";
+export {default as Hero} from "./home/Hero";
+export {default as Structure} from "./home/Structure";
+export {default as BlogCard} from "./atom/BlogCard";
+export {default as EventCard} from "./atom/EventCard";
+export {default as MemberCard} from "./atom/MemberCard";
 export {default as NavLink} from "./atom/NavLink";
 export {default as SectionTitle} from "./atom/SectionTitle";
 export {default as Element} from "./atom/Element";
