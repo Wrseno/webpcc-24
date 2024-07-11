@@ -187,3 +187,33 @@ export const galleries = [
       "Acara tahunan UKM PCC untuk menyalurkan inovasi dan kreativitas dalam bidang teknologi dan informasi.",
   },
 ];
+
+export const blogs = [
+  {
+    id: 1,
+    image: "/images/pcc.png",
+    title: "Sukses Bangun Sistem Reseller?",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo quisquam voluptatem assumenda facilis harum dolore repudiandae accusamus alias, quidem nihil.",
+    category: "Bisnis",
+    url: "",
+  },
+  {
+    id: 2,
+    image: "/images/pcc.png",
+    title: "Kembangkan Bisnis Dengan Teknologi Informasi",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo quisquam voluptatem assumenda facilis harum dolore repudiandae accusamus alias, quidem nihil.",
+    category: "Bisnis",
+    url: "",
+  },
+  {
+    id: 3,
+    image: "/images/pcc.png",
+    title: "Cara Mengatasi Laptop Hang",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo quisquam voluptatem assumenda facilis harum dolore repudiandae accusamus alias, quidem nihil.",
+    category: "Elektronik",
+    url: "",
+  },
+];
