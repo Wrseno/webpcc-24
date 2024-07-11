@@ -7,7 +7,7 @@ export default function Event() {
     <section className='relative w-full text-senary' id='event'>
       <div className='bg-teartiary flex items-center my-auto py-8 md:py-16'>
         <hr className='w-[10%] border-quinary border-t-2 mb-4 md:border-t-4' />
-        <h2 className='text-senary text-xl md:text-6xl font-bold'>EVENT</h2>
+        <h2 className='text-senary text-2xl md:text-6xl font-bold'>EVENT</h2>
       </div>
       {events.map((event, index) => {
         if (index % 2 === 0) {
@@ -38,15 +38,17 @@ export default function Event() {
       })}
       <Element
         src='elemen-visimisi-3.png'
-        alt=''
+        alt='Elemen'
+        imgClassName='w-[75px] md:w-[150px]'
+        divClassName='absolute -left-6 top-[35%] md:-left-0'
         isLeft
-        className='absolute top-[40%]'
       />
       <Element
         src='element-visi-misi.png'
-        alt=''
+        alt='Elemen'
+        imgClassName='w-[75px] md:w-[150px]'
+        divClassName='-mt-[25%] md:-mt-[50%]'
         isLeft={false}
-        className='-mt-[50%]'
       />
     </section>
   );
