@@ -16,7 +16,7 @@ export default function Blog() {
           hrWidth='w-9/12'
         />
         <div className='w-full px-4 md:px-16 lg:px-32 text-senary'>
-          <ul className='grid grid-cols-1 xl:grid-cols-3 gap-y-10 gap-x-6 items-start'>
+          <ul>
             {blogs.map((blog, index) =>
               index % 2 === 0 ? (
                 <BlogCard
