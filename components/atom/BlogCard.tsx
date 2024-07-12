@@ -44,7 +44,7 @@ export default function BlogCard({
 }: BlogCardProps) {
   const width = useWindowWidth();
   return (
-    <li className='relative flex flex-col sm:flex-row xl:flex-col items-center shadow-zero p-4'>
+    <li className='relative flex flex-col md:flex-row gap-4 items-center shadow-zero p-4'>
       <div
         className={`${
           isEven && width > 640 ? "order-1" : "order-2"
@@ -88,9 +88,9 @@ export default function BlogCard({
         <Image
           src={image}
           alt={title}
-          className='mb-6 shadow-md rounded-lg bg-slate-50 w-full sm:w-[17rem] sm:mb-0 xl:mb-6 xl:w-full'
-          width={1216}
-          height={640}
+          className='w-[250px] h-[200px] mx-auto mb-6 shadow-md rounded-lg bg-slate-50 sm:mb-0 xl:mb-6'
+          width={1000}
+          height={1000}
         />
       </div>
     </li>
