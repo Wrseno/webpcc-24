@@ -34,7 +34,7 @@ export default function Header() {
             height={100}
             priority
           />
-          <span className='self-center text-base md:text-xl font-semibold whitespace-nowrap ml-3 tracking-wider'>
+          <span className='self-center text-sm md:text-xl font-semibold whitespace-nowrap ml-3 tracking-wider'>
             POLYTECHNIC COMPUTER CLUB
           </span>
         </a>
