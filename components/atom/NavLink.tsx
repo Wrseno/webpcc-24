@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import {useEffect} from "react";
+import {useEffect, useRef} from "react";
 
 interface NavLinkProps {
   path: string;
@@ -9,10 +9,13 @@ interface NavLinkProps {
 }
 
 export default function NavLink({path, title}: NavLinkProps) {
+  const targetRef = useRef(null);
+
   const handleClick = (e: any) => {
     e.preventDefault();
     const targetId = path.substring(1);
-    const targetElement = document.getElementById(targetId);
+    const targetElement =
+      document.getElementById(targetId) || targetRef.current;
     if (targetElement) {
       const navbarHeight = document.querySelector("nav")?.offsetHeight || 0;
       const offsetPosition = targetElement.offsetTop - navbarHeight;
