@@ -3,9 +3,6 @@
 @tailwind utilities;
 
 
-
-/* styles/globals.css */
-/* header animation */
 @keyframes slideIn {
   from {
     transform: translateY(0%);
@@ -36,11 +33,8 @@
 
 img {
   pointer-events: none;
-  /* Menonaktifkan klik */
   -webkit-user-drag: none;
-  /* Menonaktifkan geser di Safari */
   user-drag: none;
-  /* Menonaktifkan geser di browser lain */
 }
 
 .shadow-zero {
@@ -58,9 +52,8 @@ img {
 .image-hero {
   object-fit: cover;
   height: 100vh;
-  width: 100vw;
   -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(#0C2753), to(rgba(0, 0, 255, 0)));
-  mask-image: linear-gradient(to bottom, #0C2753 55%, transparent 100%);
+  mask-image: linear-gradient(to bottom, #0C2753 50%, transparent 100%);
   overflow: hidden;
 }
 
@@ -71,28 +64,3 @@ img {
   padding: 2rem;
   border-radius: 99px;
 }
-
-/* :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: #17181c
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
-} */
