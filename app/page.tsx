@@ -1,27 +1,28 @@
-import {
-  About,
-  Blog,
-  Event,
-  Element,
-  Gallery,
-  Hero,
-  Structure,
-} from "@/components";
+"use client";
+
+import {useEffect} from "react";
+
+import {About, Blog, Event, Gallery, Hero, Structure} from "@/components";
+
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export default function Home() {
+  useEffect(() => {
+    AOS.init({
+      disable: function () {
+        var maxWidth = 800;
+        return window.innerWidth < maxWidth;
+      },
+    });
+    AOS.refresh();
+  }, []);
+
   return (
-    <main className='container max-w-screen-2xl mx-auto '>
+    <main className='container max-w-screen-2xl mx-auto flex flex-col gap-y-32'>
       <Hero />
       <About />
       <Event />
-      <div className='relative -my-40 md:my-56'>
-        <Element
-          src='icon-target.png'
-          alt='Icon target'
-          imgClassName='-left-1/2 md:w-[50%] md:-left-1/4 absolute'
-          isLeft
-        />
-      </div>
       <Gallery />
       <Structure />
       <Blog />
