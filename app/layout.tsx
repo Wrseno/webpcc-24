@@ -1,10 +1,12 @@
 import type {Metadata} from "next";
 import {Poppins} from "next/font/google";
+
 import "./globals.css";
-import Header from "@/components/Header";
+
+import {HeaderComponents, FooterComponents} from "@/components";
 
 const poppins = Poppins({
-  weight: ["400", "600", "700", "800"],
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800"],
   subsets: ["latin"],
 });
 
@@ -21,10 +23,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='id'>
-      <link rel='shortcut icon' href='/images/pcc.png' type='image/x-icon' />
+      <head>
+        <link rel='shortcut icon' href='/images/pcc.png' type='image/x-icon' />
+      </head>
       <body className={poppins.className}>
-        <Header />
+        <HeaderComponents />
         {children}
+        <FooterComponents />
       </body>
     </html>
   );
