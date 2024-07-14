@@ -1,4 +1,4 @@
-export const missions = [
+const missions = [
   {
     id: 1,
     text: "Menerapkan 7-Layers PCC dalam diri tiap anggota dalam setiap langkah.",
@@ -17,7 +17,7 @@ export const missions = [
   },
 ];
 
-export const navLinks = [
+const navLinks = [
   {
     title: "Home",
     path: "#home",
@@ -44,7 +44,7 @@ export const navLinks = [
   },
 ];
 
-export const events = [
+const events = [
   {
     id: 1,
     title: "Training basic",
@@ -74,64 +74,7 @@ export const events = [
   },
 ];
 
-// export const galleries = [
-//   {
-//     title: "cakra",
-//     image: "/images/IMG_8872.jpg",
-//     description:
-//       "Cakra adalah acara yang bertujuan untuk memperkenalkan UKM PCC kepada Para Mahasiswa Baru supaya Mahasiswa Baru mengetahui bahwa UKM PCC adalah UKM yang bergerak dibidang IT. Serta memperkenalkan apa yang terdapat didalam UKM PCC.",
-//   },
-//   {
-//     title: "open house",
-//     image: "/images/IMG_8872.jpg",
-//     description:
-//       "Open House bertujuan untuk memperkenalkan lebih dalam mengenai UKM PCC kepada calon anggota PCC. Memperkenalkan apa saja yang ada di PCC dan kegiatan-kegiatan lainnya yang sangat seru.",
-//   },
-//   {
-//     title: "hut pcc",
-//     image: "/images/IMG_8872.jpg",
-//     description:
-//       "Makrab bertujuan untuk menciptakan rasa kekeluargaan dan menjalin kerukunan antar pengurus UKM PCC, serta membuat para pengurus untuk saling mengenal satu sama lain.",
-//   },
-//   {
-//     title: "pendas & pab",
-//     image: "/images/IMG_8872.jpg",
-//     description:
-//       "Pendas dan PAB bertujuan untuk memberikan pendidikan dasar dan pembekalan kepada calon aktif UKM PCC.",
-//   },
-//   {
-//     title: "regenerasi",
-//     image: "/images/IMG_8872.jpg",
-//     description:
-//       "Regenerasi merupakan salah satu acara yang diadakan setahun sekali, acara ini sendiri adalah acara yang dilakukan bertujuan untuk peresmian dari pergantian anggota kepengurusan Struktur Organisasi dalam UKM PCC setelah diadakan Pengambilan Keputusan Bersama dari Seluruh Pengurus UKM PCC.",
-//   },
-//   {
-//     title: "makrab",
-//     image: "/images/IMG_8872.jpg",
-//     description:
-//       "Makrab bertujuan untuk menciptakan rasa kekeluargaan dan menjalin kerukunan antar pengurus UKM PCC, serta membuat para pengurus untuk saling mengenal satu sama lain.",
-//   },
-//   {
-//     title: "sertijab",
-//     image: "/images/IMG_8872.jpg",
-//     description:
-//       "Melantik pengurus PCC yang baru yang sebelumnya merupakan Anggota Aktif yang telah lolos melalui tahapan seleksi HRD dan Tim Formatur serta atas kebijakan dari Administrator dan melepas jabatan Pengurus UKM PCC yang telah selesai masa jabatannya sesuai dengan kesepakatan Anggaran Dasar.",
-//   },
-//   {
-//     title: "sidum & raker",
-//     image: "/images/IMG_8872.jpg",
-//     description:
-//       "Sidum dilaksanakan dengan tujuan membahas dan menetapkan AD/ART UKM PCC untuk satu tahun periode, sementara Raker dilaksanakan untuk menetapkan seluruh kegiatan selama satu tahun kepengurusan UKM PCC beserta seluruh anggota kepanitiaan dan tujuan yang ingin dicapai.",
-//   },
-//   {
-//     title: "techcomfest",
-//     image: "/images/IMG_8872.jpg",
-//     description:
-//       "Techcomfest adalah salah satu wujud misi dan peran aktif UKM Polytechnic Computer Club dalam mengikuti perkembangan teknologi dalam bidang IT. Dengan diadakannya kegiatan Techcomfest, diharapkan siswa/i SMA/SMK sederajat dan Mahasiswa/i tingkat nasional dapat menyalurkan inovasi dan kreativitas mereka khususnya dalam bidang teknologi dan informasi",
-//   },
-// ];
-
-export const galleries = [
+const galleries = [
   {
     title: "cakra",
     image: "/images/IMG_8872.jpg",
@@ -188,7 +131,7 @@ export const galleries = [
   },
 ];
 
-export const blogs = [
+const blogs = [
   {
     id: 1,
     image: "/images/pcc.png",
@@ -217,3 +160,395 @@ export const blogs = [
     url: "",
   },
 ];
+
+// Struktur organisasi - data kepengurusan
+
+const penelitianDanPengembangan = [
+  {
+    name: "Hussain Tamam Gucci Al Fauzan",
+    position: "Koordinator Litbang",
+    photo: "",
+  },
+  {
+    name: "Alfian Bagus Satriya",
+    position: "Litbang Humas",
+    photo: "",
+  },
+  {
+    name: "Mochammad Anda Fadholli",
+    position: "Litbang HRD",
+    photo: "",
+  },
+  {
+    name: "Krisna Desta Pradana",
+    position: "Litbang Redaksi",
+    photo: "",
+  },
+  {
+    name: "Annisa Salma Agustina",
+    position: "Litbang KRT",
+    photo: "",
+  },
+  {
+    name: "Tamara Silviana Hanan Zhafira",
+    position: "Litbang KRT",
+    photo: "",
+  },
+  {
+    name: "Neli Fauziyah",
+    position: "Litbang Workshop",
+    photo: "",
+  },
+];
+
+const sekretaris = [
+  {
+    name: "Syifa Nur Hamida",
+    position: "Sekretaris 1",
+    photo: "",
+  },
+  {
+    name: "Atina Nur Fahmi",
+    position: "Sekretaris 2",
+    photo: "",
+  },
+  {
+    name: "Khalisa Dian Ramadhani",
+    position: "Sekretaris 3",
+    photo: "",
+  },
+];
+
+const bendahara = [
+  {
+    name: "Naila Karimatul Ulya",
+    position: "Bendahara 1",
+    photo: "",
+  },
+  {
+    name: "Aina Azzahra",
+    position: "Bendahara 2",
+    photo: "",
+  },
+  {
+    name: "Syakura Wijdan Lailatulfitri",
+    position: "Bendahara 3",
+    photo: "",
+  },
+];
+
+const divisiHumas = [
+  {
+    name: "Ahmad Farkhani",
+    position: "Kepala Divisi",
+    photo: "",
+  },
+  {
+    name: "Belsan Khanifa Millati",
+    position: "Staff Divisi",
+    photo: "",
+  },
+  {
+    name: "Erine Cindy Ramrosy",
+    position: "Staff Divisi",
+    photo: "",
+  },
+  {
+    name: "Nisrina Izdihar",
+    position: "Staff Divisi",
+    photo: "",
+  },
+  {
+    name: "Saedatul Al Fitria",
+    position: "Staff Divisi",
+    photo: "",
+  },
+];
+
+const divisiHrd = [
+  {
+    name: "Fathia Salvatera",
+    position: "Kepala Divisi",
+    photo: "",
+  },
+  {
+    name: "Amelya Dian Putri Indriaswari",
+    position: "Staff Divisi",
+    photo: "",
+  },
+  {
+    name: "Danu Alamsyah Putra",
+    position: "Staff Divisi",
+    photo: "",
+  },
+  {
+    name: "Dina Anggreyani Pramesti",
+    position: "Staff Divisi",
+    photo: "",
+  },
+  {
+    name: "Frea Aline Aurellia",
+    position: "Staff Divisi",
+    photo: "",
+  },
+  {
+    name: "Ilham Vallian Wardoyo Putra",
+    position: "Staff Divisi",
+    photo: "",
+  },
+  {
+    name: "Naela Syifa",
+    position: "Staff Divisi",
+    photo: "",
+  },
+];
+
+const divisiRedaksi = [
+  {
+    name: "Gilang Maulanata Pramudya",
+    position: "Kepala Divisi",
+    photo: "",
+  },
+  {
+    name: "Anindha Cahya Mulia Salim",
+    position: "Staff Divisi",
+    photo: "",
+  },
+  {
+    name: "Maulana Fajar Rohmani",
+    position: "Staff Divisi",
+    photo: "",
+  },
+  {
+    name: "Muhammad Zakiy Fadhlullah Azhar",
+    position: "Staff Divisi",
+    photo: "",
+  },
+  {
+    name: "Prima Nova Mahendra",
+    position: "Staff Divisi",
+    photo: "",
+  },
+  {
+    name: "Tiara Yoga Pratiwi",
+    position: "Staff Divisi",
+    photo: "",
+  },
+];
+
+const divisiKrt = [
+  {
+    name: "Natasha Yoviana",
+    position: "Kepala Divisi",
+    photo: "",
+  },
+  {
+    name: "Affan Rizkinaya",
+    position: "Staff Divisi",
+    photo: "",
+  },
+  {
+    name: "Davin Alifianda Adytia",
+    position: "Staff Divisi",
+    photo: "",
+  },
+  {
+    name: "Hany Diah Ramadhani",
+    position: "Staff Divisi",
+    photo: "",
+  },
+  {
+    name: "Siti Nur Alfina",
+    position: "Staff Divisi",
+    photo: "",
+  },
+];
+
+const departemenDanus = [
+  {
+    name: "Irma Innayah",
+    position: "Kepala Departemen",
+    photo: "",
+  },
+  {
+    name: "Caesa Aurelia Putri",
+    position: "Staff Departemen",
+    photo: "",
+  },
+  {
+    name: "Merlina Setyaningrum",
+    position: "Staff Departemen",
+    photo: "",
+  },
+  {
+    name: "Nurul Hidayah Fitriana",
+    position: "Staff Departemen",
+    photo: "",
+  },
+  {
+    name: "Hadiatun Nurfadilah",
+    position: "Staff Departemen",
+    photo: "",
+  },
+];
+
+const departemenMaintenance = [
+  {
+    name: "Miftachussurur",
+    position: "Kepala Departemen",
+    photo: "",
+  },
+  {
+    name: "Bunga Putri Ema Aryani",
+    position: "Staff Departemen",
+    photo: "",
+  },
+  {
+    name: "Raditya Hazza Dzulfiqar",
+    position: "Staff Departemen",
+    photo: "",
+  },
+  {
+    name: "Tubagus Pratama Julianto",
+    position: "Staff Departemen",
+    photo: "",
+  },
+];
+
+const divisiWorkshop = [
+  {
+    name: "Aufaa Hamiidah Aryana",
+    position: "Kepala Divisi",
+    photo: "",
+  },
+  {
+    name: "Ibrahim Aryan Faridzi",
+    position: "Wakil Kepala Divisi",
+    photo: "",
+  },
+  {
+    name: "Dimas Irsyad Maulana",
+    position: "Staff Divisi",
+    photo: "",
+  },
+  {
+    name: "Hanif Abdusy Syakur",
+    position: "Staff Divisi",
+    photo: "",
+  },
+  {
+    name: "Sabrina Shofia Anggi",
+    position: "Staff Divisi",
+    photo: "",
+  },
+  {
+    name: "Nabila Khairunnisa Dian Pranata",
+    position: "Staff Divisi",
+    photo: "",
+  },
+];
+
+const departemenMultimedia = [
+  {
+    name: "Khilda Salsabila Azka",
+    position: "Kepala Departemen",
+    photo: "",
+  },
+  {
+    name: "Agung Hadi Astanto",
+    position: "Staff Departemen",
+    photo: "",
+  },
+  {
+    name: "Atsiila Arya Nabiih",
+    position: "Staff Departemen",
+    photo: "",
+  },
+  {
+    name: "Ni Made Ayu Ratna Anjalie",
+    position: "Staff Departemen",
+    photo: "",
+  },
+  {
+    name: "Risqi Tia Sari",
+    position: "Staff Departemen",
+    photo: "",
+  },
+];
+
+const departemenSoftware = [
+  {
+    name: "Muhamad Haydar Aydin Alhamdani",
+    position: "Kepala Departemen",
+    photo: "",
+  },
+  {
+    name: "Dena Windiarpuspa",
+    position: "Staff Departemen",
+    photo: "",
+  },
+  {
+    name: "Elang Argawana",
+    position: "Staff Departemen",
+    photo: "",
+  },
+  {
+    name: "Gilang Raka Ramadhan",
+    position: "Staff Departemen",
+    photo: "",
+  },
+  {
+    name: "Warseno Bambang Setyono",
+    position: "Staff Departemen",
+    photo: "",
+  },
+];
+
+const departemenNetwork = [
+  {
+    name: "Aldo Ramadhana",
+    position: "Kepala Departemen",
+    photo: "",
+  },
+  {
+    name: "Alvin Putra Nurtan",
+    position: "Staff Departemen",
+    photo: "",
+  },
+  {
+    name: "Alwy Ma'shum",
+    position: "Staff Departemen",
+    photo: "",
+  },
+  {
+    name: "Muhamad Ariel Gunawan",
+    position: "Staff Departemen",
+    photo: "",
+  },
+  {
+    name: "Mila Dewi Nurhidayah",
+    position: "Staff Departemen",
+    photo: "",
+  },
+];
+
+export {
+  missions,
+  navLinks,
+  events,
+  galleries,
+  blogs,
+  penelitianDanPengembangan,
+  sekretaris,
+  bendahara,
+  divisiHumas,
+  divisiHrd,
+  divisiRedaksi,
+  divisiKrt,
+  departemenDanus,
+  departemenMaintenance,
+  divisiWorkshop,
+  departemenMultimedia,
+  departemenSoftware,
+  departemenNetwork,
+};
