@@ -11,7 +11,9 @@ interface NavLinkProps {
 export default function NavLink({path, title}: NavLinkProps) {
   const targetRef = useRef(null);
 
-  const handleClick = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
+  const handleClick = (
+    e: React.MouseEvent<HTMLAnchorElement, MouseEvent> | any
+  ) => {
     e.preventDefault();
     const targetId = path.substring(1);
     const targetElement =
@@ -26,6 +28,19 @@ export default function NavLink({path, title}: NavLinkProps) {
       });
     }
   };
+
+  useEffect(() => {
+    const anchors = document.querySelectorAll(".scroll-link");
+    anchors.forEach((anchor) => {
+      anchor.addEventListener("click", handleClick);
+    });
+
+    return () => {
+      anchors.forEach((anchor) => {
+        anchor.removeEventListener("click", handleClick);
+      });
+    };
+  }, []);
 
   return (
     <li>
