@@ -2,8 +2,11 @@ import type {Metadata} from "next";
 import {Poppins} from "next/font/google";
 
 import "./globals.css";
+import "primereact/resources/primereact.min.css";
+import "primereact/resources/themes/tailwind-light/theme.css";
+import {ScrollTop} from "primereact/scrolltop";
 
-import {HeaderComponents, FooterComponents} from "@/components";
+import {HeaderComponents, FooterComponents, AOSWrapper} from "@/components";
 
 const poppins = Poppins({
   weight: ["100", "200", "300", "400", "500", "600", "700", "800"],
@@ -28,7 +31,8 @@ export default function RootLayout({
       </head>
       <body className={poppins.className}>
         <HeaderComponents />
-        {children}
+        <AOSWrapper>{children}</AOSWrapper>
+        <ScrollTop className='bg-secondary' />
         <FooterComponents />
       </body>
     </html>
