@@ -38,10 +38,12 @@ export default function SectionTitle({
             useRightHr ? "fade-right" : useLeftHr ? "fade-left" : ""
           }`}
         >
-          <span className={`${spanColor} font-bold`}>{spanTitle} </span>{" "}
-          {firstTitle}
+          <span className={`${spanColor} font-bold`}>
+            {spanTitle?.toUpperCase()}{" "}
+          </span>{" "}
+          {firstTitle?.toUpperCase()}
           {useBr && <br />}
-          {secondTitle}
+          {secondTitle?.toUpperCase()}
         </h2>
         {useRightHr && (
           <hr
