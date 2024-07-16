@@ -13,7 +13,6 @@ export default function AOSWrapper({children}: AOSWrapperProps) {
     AOS.init({
       duration: 1000,
       once: true,
-      offset: 10,
     });
     AOS.refresh();
   }, []);
