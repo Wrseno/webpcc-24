@@ -8,7 +8,7 @@ interface memberCardProps {
 export default function MemberCard({imageUrl, alt}: memberCardProps) {
   return (
     <div
-      className='w-72 h-96 bg-primary rounded-xl overflow-hidden mx-auto md:ms-auto md:me-16 flex justify-center items-center'
+      className='w-72 h-96 bg-secondary rounded-xl overflow-hidden mx-auto md:ms-auto md:me-16 flex justify-center items-center'
       data-aos='zoom-in'
     >
       <div className='w-full h-full'>
