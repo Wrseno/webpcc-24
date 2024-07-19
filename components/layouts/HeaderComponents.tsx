@@ -71,6 +71,14 @@ export default function HeaderComponents() {
           id='mobile-menu'
         >
           <ul className='flex flex-col mt-4 md:flex-row md:space-x-4 md:mt-0 text-senary pb-4 sm:pb-0'>
+            <li>
+              <Link
+                href='/'
+                className='block py-2 pr-4 pl-3 rounded hover:bg-secondary md:hover:bg-transparent md:border-0 md:hover:text-quinary md:p-0 duration-300 '
+              >
+                Home
+              </Link>
+            </li>
             {navLinks.map((navLink, index) => (
               <NavLink key={index} path={navLink.path} title={navLink.title} />
             ))}
