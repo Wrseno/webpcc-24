@@ -7,7 +7,7 @@ import AboutSection from "../components/about/AboutSection";
 export default function About() {
   return (
     <section className='' id='about'>
-      <div className='px-4 md:px-16 lg:px-32 md:flex relative'>
+      <div className='px-4 md:px-16 lg:px-32 md:flex relative mt-20'>
         <div className='flex md:block md:[w-40%] lg:w-[25%]'>
           <Image
             src='/images/icon_lightblub.png'

@@ -25,7 +25,7 @@ export default function EventCard({
   const firstTitle = words[1];
 
   return (
-    <div className='grid grid-cols-2 items-center gap-8 bg-primary text-xs md:text-base p-4 md:p-24 md:py-32'>
+    <div className='grid grid-cols-1 md:grid-cols-2 items-center gap-8 bg-primary text-xs md:text-base p-4 py-16 md:p-24 md:py-32'>
       {!isEven && (
         <div data-aos='zoom-in'>
           <Image

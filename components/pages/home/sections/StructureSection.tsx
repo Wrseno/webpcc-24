@@ -6,7 +6,7 @@ import {IoIosArrowForward} from "react-icons/io";
 export default function Structure() {
   return (
     <section className='' id='kepengurusan'>
-      <div className='pl-[15%] '>
+      <div className='pl-[15%] mt-20'>
         <SectionTitle
           firstTitle='ORGANISASI'
           secondTitle='2024/2025'

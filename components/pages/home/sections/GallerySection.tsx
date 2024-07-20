@@ -24,7 +24,7 @@ import {ImageElement} from "../../..";
 export default function Gallery() {
   return (
     <section className='w-full text-senary items-center my-auto' id='gallery'>
-      <div className='text-center'>
+      <div className='text-center mt-20'>
         <h2
           className='text-primary text-2xl md:text-6xl font-bold'
           data-aos='fade-down'

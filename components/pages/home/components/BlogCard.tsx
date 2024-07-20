@@ -45,7 +45,7 @@ export default function BlogCard({
   const width = useWindowWidth();
   return (
     <li
-      className='relative flex flex-col md:flex-row gap-4 items-center shadow-zero p-4'
+      className='relative flex flex-col md:flex-row gap-4 items-center shadow-zero p-7 rounded-lg'
       data-aos='fade-up'
     >
       <div

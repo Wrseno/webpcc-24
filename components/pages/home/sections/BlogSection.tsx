@@ -5,7 +5,7 @@ import {blogs} from "@/data/data";
 export default function Blog() {
   return (
     <section className='' id='blog'>
-      <div className=''>
+      <div className='mt-20'>
         <SectionTitle
           firstTitle='PCC'
           spanTitle='BLOG'
@@ -16,7 +16,7 @@ export default function Blog() {
           hrWidth='w-9/12'
         />
         <div className='w-full px-4 md:px-16 lg:px-32 text-senary'>
-          <ul className='grid gap-y-12'>
+          <ul className='grid gap-y-12 mt-6'>
             {blogs.map((blog, index) =>
               index % 2 === 0 ? (
                 <BlogCard

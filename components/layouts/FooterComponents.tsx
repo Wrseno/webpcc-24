@@ -96,7 +96,7 @@ export default function FooterComponents() {
                   <FooterLink href='#'>
                     Semarang, Indonesia Politeknik Negeri Semarang
                   </FooterLink>
-                  <FooterLink href='#'>www.ukm.pcc.org</FooterLink>
+                  <FooterLink href='#'>www.ukmpcc.org</FooterLink>
                 </FooterLinkGroup>
               </div>
             </div>

@@ -33,7 +33,7 @@ export default function SectionTitle({
           />
         )}
         <h2
-          className={`${textColor} text-2xl md:text-4xl font-bold`}
+          className={`${textColor} text-2xl md:text-4xl font-bold mb-3`}
           data-aos={`${
             useRightHr ? "fade-right" : useLeftHr ? "fade-left" : ""
           }`}

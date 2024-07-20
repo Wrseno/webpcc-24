@@ -6,8 +6,8 @@ export const organization = [
   {
     expanded: true,
     type: "person",
-    className: "bg-quinary text-senary text-sm sm:text-base p-4",
-    style: {borderRadius: "12px"},
+    className: "bg-denary text-senary text-sm sm:text-base p-4",
+    style: { borderRadius: "12px" },
     data: {
       title: "Administrator",
       href: "#administrator",
@@ -16,8 +16,8 @@ export const organization = [
       {
         expanded: true,
         type: "person",
-        className: "bg-quaternary text-senary text-sm sm:text-base p-4",
-        style: {borderRadius: "12px"},
+        className: "bg-denary text-senary text-sm sm:text-base p-4",
+        style: { borderRadius: "12px" },
         data: {
           title: "Sekretaris Umum",
           href: "#sekum",
@@ -26,14 +26,14 @@ export const organization = [
           {
             label: "Sekretaris",
             className: "bg-denary text-senary text-sm sm:text-base p-4",
-            style: {borderRadius: "12px"},
+            style: { borderRadius: "12px" },
             href: "#sekretaris",
           },
           {
             expanded: true,
             type: "person",
             className: "bg-teartiary text-senary text-sm sm:text-base p-4",
-            style: {borderRadius: "12px"},
+            style: { borderRadius: "12px" },
             data: {
               title: "Litbang",
               href: "#litbang",
@@ -42,20 +42,20 @@ export const organization = [
               {
                 label: "Divisi Humas",
                 className: "bg-secondary text-senary text-sm sm:text-base p-4",
-                style: {borderRadius: "12px"},
+                style: { borderRadius: "12px" },
                 href: "#humas",
               },
               {
                 label: "Divisi HRD",
                 className: "bg-secondary text-senary text-sm sm:text-base p-4",
-                style: {borderRadius: "12px"},
+                style: { borderRadius: "12px" },
                 href: "#hrd",
               },
               {
                 expanded: true,
                 type: "person",
                 className: "bg-secondary text-senary text-sm sm:text-base p-4",
-                style: {borderRadius: "12px"},
+                style: { borderRadius: "12px" },
                 data: {
                   title: "Divisi KRT",
                   href: "#krt",
@@ -63,16 +63,14 @@ export const organization = [
                 children: [
                   {
                     label: "Departemen Danus",
-                    className:
-                      "bg-primary text-senary text-sm sm:text-base p-4",
-                    style: {borderRadius: "12px"},
+                    className: "bg-primary text-senary text-sm sm:text-base p-4",
+                    style: { borderRadius: "12px" },
                     href: "#danus",
                   },
                   {
                     label: "Departemen Maintenance",
-                    className:
-                      "bg-primary text-senary text-sm sm:text-base p-4",
-                    style: {borderRadius: "12px"},
+                    className: "bg-primary text-senary text-sm sm:text-base p-4",
+                    style: { borderRadius: "12px" },
                     href: "#maintenance",
                   },
                 ],
@@ -80,14 +78,14 @@ export const organization = [
               {
                 label: "Divisi Redaksi",
                 className: "bg-secondary text-senary text-sm sm:text-base p-4",
-                style: {borderRadius: "12px"},
+                style: { borderRadius: "12px" },
                 href: "#redaksi",
               },
               {
                 expanded: true,
                 type: "person",
                 className: "bg-secondary text-senary text-sm sm:text-base p-4",
-                style: {borderRadius: "12px"},
+                style: { borderRadius: "12px" },
                 data: {
                   title: "Divisi Workshop",
                   href: "#workshop",
@@ -95,23 +93,20 @@ export const organization = [
                 children: [
                   {
                     label: "Derpartemen Software",
-                    className:
-                      "bg-primary text-senary text-sm sm:text-base p-4",
-                    style: {borderRadius: "12px"},
+                    className: "bg-primary text-senary text-sm sm:text-base p-4",
+                    style: { borderRadius: "12px" },
                     href: "#software",
                   },
                   {
                     label: "Derpartemen Multimedia",
-                    className:
-                      "bg-primary text-senary text-sm sm:text-base p-4",
-                    style: {borderRadius: "12px"},
+                    className: "bg-primary text-senary text-sm sm:text-base p-4",
+                    style: { borderRadius: "12px" },
                     href: "#multimedia",
                   },
                   {
                     label: "Derpartemen Network",
-                    className:
-                      "bg-primary text-senary text-sm sm:text-base p-4",
-                    style: {borderRadius: "12px"},
+                    className: "bg-primary text-senary text-sm sm:text-base p-4",
+                    style: { borderRadius: "12px" },
                     href: "#network",
                   },
                 ],
@@ -121,7 +116,7 @@ export const organization = [
           {
             label: "Bendahara",
             className: "bg-denary text-senary text-sm sm:text-base p-4",
-            style: {borderRadius: "12px"},
+            style: { borderRadius: "12px" },
             href: "#bendahara",
           },
         ],

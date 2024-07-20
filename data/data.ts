@@ -47,8 +47,7 @@ const events = [
     image: "training-basic.webp",
     date: "2024-01-15",
     location: "POLINES",
-    description:
-      "Training Basic merupakan salah satu program kerja UKM PCC yang bertujuan untuk memberikan pelatihan dan mengenalkan tiga bidang departemen dibawah Workshop UKM PCC, kepada calon anggota baru UKM PCC",
+    description: "Training Basic merupakan salah satu program kerja UKM PCC yang bertujuan untuk memberikan pelatihan dan mengenalkan tiga bidang departemen dibawah Workshop UKM PCC, kepada calon anggota baru UKM PCC",
   },
   {
     id: 2,
@@ -72,58 +71,60 @@ const events = [
 
 const galleries = [
   {
-    title: "cakra",
+    title: "temu awal",
     image: "/images/gath-sto.webp",
     description:
-      "Acara untuk memperkenalkan UKM PCC kepada Mahasiswa Baru dan bidang IT yang digeluti.",
+      "Temu Awal merupakan acara yang diadakan Pertama kali untuk mempertemukan seluruh anggota Pengurus UKM PCC lama dengan Anggota Pengurus yang baru. tujuannya supaya antar anggota Pengurus UKM PCC saling mengenal satu sama lain..",
+  },
+  {
+    title: "sidum & raker",
+    image: "/images/sidum-raker.webp",
+    description: "Sidum untuk menetapkan AD/ART, Raker untuk menetapkan kegiatan dan tujuan setahun UKM PCC.",
+  },
+  {
+    title: "cakra & ppm",
+    image: "/images/cakra-ppm.webp",
+    description: "Acara untuk memperkenalkan UKM PCC kepada Mahasiswa Baru dan bidang IT yang digeluti.",
+  },
+  {
+    title: "makrab awal",
+    image: "/images/gath-sto.webp",
+    description: "Acara kekeluargaan untuk menjalin kerukunan dan saling mengenal antar pengurus UKM PCC.",
   },
   {
     title: "open house",
-    image: "/images/gath-sto.webp",
-    description:
-      "Memperkenalkan lebih dalam UKM PCC dan kegiatan-kegiatannya kepada calon anggota.",
-  },
-  {
-    title: "hut pcc",
-    image: "/images/gath-sto.webp",
-    description:
-      "Acara kekeluargaan untuk menjalin kerukunan dan saling mengenal antar pengurus UKM PCC.",
+    image: "/images/open-house.webp",
+    description: "Memperkenalkan lebih dalam UKM PCC dan kegiatan-kegiatannya kepada calon anggota.",
   },
   {
     title: "pendas & pab",
-    image: "/images/gath-sto.webp",
-    description:
-      "Memberikan pendidikan dasar dan pembekalan kepada calon anggota aktif UKM PCC.",
+    image: "/images/pendas-pab.webp",
+    description: "Memberikan pendidikan dasar dan pembekalan kepada calon anggota aktif UKM PCC.",
+  },
+  {
+    title: "hut pcc",
+    image: "/images/hut-pcc.webp",
+    description: "Acara kekeluargaan untuk menjalin kerukunan dan saling mengenal antar pengurus UKM PCC.",
+  },
+  {
+    title: "Goes to Public",
+    image: "/images/goestopublic.webp",
+    description: "Melakukan bakti sosial pada masyarakat agar dapat menerapkan tri dharma perguruan tinggi.",
+  },
+  {
+    title: "techcomfest",
+    image: "/images/techcomfest-semnas.webp",
+    description: "Acara tahunan UKM PCC untuk menyalurkan inovasi dan kreativitas dalam bidang teknologi dan informasi.",
   },
   {
     title: "regenerasi",
-    image: "/images/gath-sto.webp",
-    description:
-      "Peresmian dan pergantian anggota kepengurusan UKM PCC setelah Pengambilan Keputusan Bersama.",
-  },
-  {
-    title: "makrab",
-    image: "/images/gath-sto.webp",
-    description:
-      "Acara kekeluargaan untuk menjalin kerukunan dan saling mengenal antar pengurus UKM PCC.",
+    image: "/images/regenerasi-camin.webp",
+    description: "Peresmian dan pergantian anggota kepengurusan UKM PCC setelah Pengambilan Keputusan Bersama.",
   },
   {
     title: "sertijab",
     image: "/images/gath-sto.webp",
-    description:
-      "Pelantikan pengurus baru yang sebelumnya Anggota Aktif dan pelepasan jabatan pengurus lama sesuai AD/ART.",
-  },
-  {
-    title: "sidum & raker",
-    image: "/images/gath-sto.webp",
-    description:
-      "Sidum untuk menetapkan AD/ART, Raker untuk menetapkan kegiatan dan tujuan setahun UKM PCC.",
-  },
-  {
-    title: "techcomfest",
-    image: "/images/gath-sto.webp",
-    description:
-      "Acara tahunan UKM PCC untuk menyalurkan inovasi dan kreativitas dalam bidang teknologi dan informasi.",
+    description: "Pelantikan pengurus baru yang sebelumnya Anggota Aktif dan pelepasan jabatan pengurus lama sesuai AD/ART.",
   },
 ];
 
@@ -132,8 +133,7 @@ const blogs = [
     id: 1,
     image: "/images/pcc.png",
     title: "Sukses Bangun Sistem Reseller?",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo quisquam voluptatem assumenda facilis harum dolore repudiandae accusamus alias, quidem nihil.",
+    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo quisquam voluptatem assumenda facilis harum dolore repudiandae accusamus alias, quidem nihil.",
     category: "Bisnis",
     url: "",
   },
@@ -141,8 +141,7 @@ const blogs = [
     id: 2,
     image: "/images/pcc.png",
     title: "Kembangkan Bisnis Dengan Teknologi Informasi",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo quisquam voluptatem assumenda facilis harum dolore repudiandae accusamus alias, quidem nihil.",
+    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo quisquam voluptatem assumenda facilis harum dolore repudiandae accusamus alias, quidem nihil.",
     category: "Bisnis",
     url: "",
   },
@@ -150,8 +149,7 @@ const blogs = [
     id: 3,
     image: "/images/pcc.png",
     title: "Cara Mengatasi Laptop Hang",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo quisquam voluptatem assumenda facilis harum dolore repudiandae accusamus alias, quidem nihil.",
+    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo quisquam voluptatem assumenda facilis harum dolore repudiandae accusamus alias, quidem nihil.",
     category: "Elektronik",
     url: "",
   },
@@ -364,7 +362,7 @@ const departemenDanus = [
   {
     name: "Irma Innayah",
     position: "Kepala Departemen",
-    photo: "/images/sto/danus/Irma Innaya.webp",
+    photo: "/images/sto/danus/Irma Innayah.webp",
   },
   {
     name: "Caesa Aurelia Putri",
