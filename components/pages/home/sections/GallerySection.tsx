@@ -67,7 +67,7 @@ export default function Gallery() {
                 alt={gallery.title}
                 width={1000}
                 height={1000}
-                className='rounded-t-2xl'
+                className='rounded-t-2xl h-64 w-full object-cover'
               />
               <div className='bg-primary p-4 rounded-b-2xl flex-grow flex flex-col description'>
                 <h2 className='text-base sm:text-xl font-semibold mb-4'>

@@ -74,7 +74,7 @@ const galleries = [
     title: "temu awal",
     image: "/images/gath-sto.webp",
     description:
-      "Temu Awal merupakan acara yang diadakan Pertama kali untuk mempertemukan seluruh anggota Pengurus UKM PCC lama dengan Anggota Pengurus yang baru. tujuannya supaya antar anggota Pengurus UKM PCC saling mengenal satu sama lain..",
+      "Merupakan acara yang diadakan Pertama kali untuk mempertemukan seluruh anggota Pengurus UKM PCC lama dengan Anggota Pengurus yang baru",
   },
   {
     title: "sidum & raker",

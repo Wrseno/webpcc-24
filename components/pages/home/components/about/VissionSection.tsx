@@ -5,7 +5,7 @@ export default function VisionSection() {
   return (
     <div className='w-full flex -mt-10 gap-4 px-4 md:-mt-20 lg:gap-16 md:px-16 lg:px-32 md:pb-12'>
       <div
-        className='lg:w-1/2 my-auto rounded-3xl shadow-three'
+        className='lg:w-1/2 my-auto rounded-3xl drop-shadow-2xl'
         data-aos='zoom-in'
       >
         <Image
