@@ -19,6 +19,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import "swiper/css/autoplay";
+
 import {ImageElement} from "../../..";
 
 export default function Gallery() {
@@ -43,19 +44,25 @@ export default function Gallery() {
         <Swiper
           modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
           spaceBetween={50}
+          pagination={{clickable: true}}
+          autoplay
           breakpoints={{
+            320: {
+              slidesPerView: 1,
+              spaceBetween: 10,
+              navigation: false,
+            },
             640: {
               slidesPerView: 2,
               spaceBetween: 20,
+              navigation: false,
             },
             768: {
               slidesPerView: 3,
               spaceBetween: 40,
+              navigation: true,
             },
           }}
-          navigation
-          pagination={{clickable: true}}
-          autoplay
         >
           {galleries.map((gallery, index) => (
             <SwiperSlide
