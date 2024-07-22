@@ -180,37 +180,37 @@ const litbang = [
   {
     name: "Hussain Tamam Gucci Al Fauzan",
     position: "Koordinator Litbang",
-    photo: "/images/sto/litbang/koor-litbang.webp",
+    photo: "/images/sto/litbang/Husen.webp",
   },
   {
     name: "Alfian Bagus Satriya",
     position: "Litbang Humas",
-    photo: "/images/sto/litbang/litbang-humas.webp",
+    photo: "/images/sto/litbang/Alpian.webp",
   },
   {
     name: "Moch. Anda Fadholli",
     position: "Litbang HRD",
-    photo: "/images/sto/litbang/litbang-hrd.webp",
+    photo: "/images/sto/litbang/Anda.webp",
   },
   {
     name: "Krisna Desta Pradana",
     position: "Litbang Redaksi",
-    photo: "/images/sto/litbang/litbang-redaksi.webp",
+    photo: "/images/sto/litbang/Krisna.webp",
   },
   {
     name: "Annisa Salma Agustina",
     position: "Litbang KRT",
-    photo: "/images/sto/litbang/litbang-krt.webp",
+    photo: "/images/sto/litbang/Umi.webp",
   },
   {
     name: "Tamara Silviana Hanan Zhafira",
     position: "Litbang KRT",
-    photo: "/images/sto/litbang/litbang-krt2.webp",
+    photo: "/images/sto/litbang/Rara.webp",
   },
   {
     name: "Neli Fauziyah",
     position: "Litbang Workshop",
-    photo: "/images/sto/litbang/litbang-workshop.webp",
+    photo: "/images/sto/litbang/Neli.webp",
   },
 ];
 
@@ -236,17 +236,17 @@ const bendahara = [
   {
     name: "Naila Karimatul Ulya",
     position: "Bendahara 1",
-    photo: "/images/sto/bendahara/bendahara.webp",
+    photo: "/images/sto/bendahara/Naila.webp",
   },
   {
     name: "Aina Azzahra",
     position: "Bendahara 2",
-    photo: "/images/sto/bendahara/bendahara2.webp",
+    photo: "/images/sto/bendahara/Aina Azz.webp",
   },
   {
     name: "Syakura Wijdan L.",
     position: "Bendahara 3",
-    photo: "/images/sto/bendahara/bendahara3.webp",
+    photo: "/images/sto/bendahara/Syakura.webp",
   },
 ];
 
@@ -254,27 +254,27 @@ const divisiHumas = [
   {
     name: "Ahmad Farkhani",
     position: "Kepala Divisi",
-    photo: "/images/sto/humas/Ahmad Farkhani.webp",
+    photo: "/images/sto/humas/Ahmad.webp",
   },
   {
     name: "Belsan Khanifa Millati",
     position: "Staff Divisi",
-    photo: "/images/sto/humas/Belsan Khanifa Millati.webp",
+    photo: "/images/sto/humas/Belsan.webp",
   },
   {
     name: "Erine Cindy Ramrosy",
     position: "Staff Divisi",
-    photo: "/images/sto/humas/Erine Cindy Ramrosy.webp",
+    photo: "/images/sto/humas/Erine.webp",
   },
   {
     name: "Nisrina Izdihar",
     position: "Staff Divisi",
-    photo: "/images/sto/humas/Nisrina Izdihar.webp",
+    photo: "/images/sto/humas/Nisrina.webp",
   },
   {
     name: "Saedatul Al Fitria",
     position: "Staff Divisi",
-    photo: "/images/sto/humas/Saedatul Al Fitria.webp",
+    photo: "/images/sto/humas/Saedatul.webp",
   },
 ];
 
@@ -282,37 +282,37 @@ const divisiHrd = [
   {
     name: "Fathia Salvatera",
     position: "Kepala Divisi",
-    photo: "/images/sto/hrd/Fatia Salvatera.webp",
+    photo: "/images/sto/hrd/Fatia.webp",
   },
   {
     name: "Danu Alamsyah Putra",
     position: "Staff Divisi",
-    photo: "/images/sto/hrd/Danu Alamsyah Putra.webp",
+    photo: "/images/sto/hrd/Danu.webp",
   },
   {
-    name: "Dina Anggreyani P.",
+    name: "Dinaa Anggreyani P.",
     position: "Staff Divisi",
-    photo: "/images/sto/hrd/Diana Anggreyani Pramesti.webp",
+    photo: "/images/sto/hrd/Diana.webp",
   },
   {
     name: "Frea Aline Aurellia",
     position: "Staff Divisi",
-    photo: "/images/sto/hrd/Frea Aline Aurellia.webp",
+    photo: "/images/sto/hrd/Frea.webp",
   },
   {
     name: "Ilham Vallian W. P.",
     position: "Staff Divisi",
-    photo: "/images/sto/hrd/Ilham Vallian Wardoyo Putra.webp",
+    photo: "/images/sto/hrd/ilham.webp",
   },
   {
     name: "Naela Syifa",
     position: "Staff Divisi",
-    photo: "/images/sto/hrd/Naela Syifa.webp",
+    photo: "/images/sto/hrd/Naela.webp",
   },
   {
     name: "Amelya Dian Putri I.",
     position: "Staff Divisi",
-    photo: "/images/sto/hrd/Amelya Dian Putri Indriaswari.webp",
+    photo: "/images/sto/hrd/amel.webp",
   },
 ];
 
@@ -320,32 +320,32 @@ const divisiRedaksi = [
   {
     name: "Gilang Maulanata P.",
     position: "Kepala Divisi",
-    photo: "/images/sto/redaksi/Gilang Maulanata Pramudya.webp",
+    photo: "/images/sto/redaksi/Gilang.webp",
   },
   {
     name: "Anindha Cahya Mulia S.",
     position: "Staff Divisi",
-    photo: "/images/sto/redaksi/Anindha Cahya Mulia Salim.webp",
+    photo: "/images/sto/redaksi/Anindha.webp",
   },
   {
     name: "Maulana Fajar Rohmani",
     position: "Staff Divisi",
-    photo: "/images/sto/redaksi/Maulana Fajar Rohmani.webp",
+    photo: "/images/sto/redaksi/Fajar.webp",
   },
   {
     name: "Muhammad Zakiy F. A.",
     position: "Staff Divisi",
-    photo: "/images/sto/redaksi/Muhammad Zakiy Fadhlullah Azhar.webp",
+    photo: "/images/sto/redaksi/Zakiy.webp",
   },
   {
     name: "Prima Nova Mahendra",
     position: "Staff Divisi",
-    photo: "/images/sto/redaksi/Prima Nova Mahendra.webp",
+    photo: "/images/sto/redaksi/Prima.webp",
   },
   {
     name: "Tiara Yoga Pratiwi",
     position: "Staff Divisi",
-    photo: "/images/sto/redaksi/Tiara Yoga Pratiwi.webp",
+    photo: "/images/sto/redaksi/tiara.webp",
   },
 ];
 
@@ -353,27 +353,27 @@ const divisiKrt = [
   {
     name: "Natasha Yoviana",
     position: "Kepala Divisi",
-    photo: "/images/sto/krt/Natasha Yoviana.webp",
+    photo: "/images/sto/krt/Natasha.webp",
   },
   {
     name: "Affan Rizkinaya",
     position: "Staff Divisi",
-    photo: "/images/sto/krt/Affan Rizkinaya.webp",
+    photo: "/images/sto/krt/Affan.webp",
   },
   {
     name: "Davin Alifianda Adytia",
     position: "Staff Divisi",
-    photo: "/images/sto/krt/Davin Alifianda Adytia.webp",
+    photo: "/images/sto/krt/Davin.webp",
   },
   {
     name: "Hany Diah Ramadhani",
     position: "Staff Divisi",
-    photo: "/images/sto/krt/Hany Diah Ramadhani.webp",
+    photo: "/images/sto/krt/Hany.webp",
   },
   {
     name: "Siti Nur Alfina",
     position: "Staff Divisi",
-    photo: "/images/sto/krt/Siti Nur Alfina.webp",
+    photo: "/images/sto/krt/Siti.webp",
   },
 ];
 
@@ -381,22 +381,22 @@ const departemenDanus = [
   {
     name: "Irma Innayah",
     position: "Kepala Departemen",
-    photo: "/images/sto/danus/Irma Innayah.webp",
+    photo: "/images/sto/danus/Irma.webp",
   },
   {
     name: "Caesa Aurelia Putri",
     position: "Staff Departemen",
-    photo: "/images/sto/danus/Caesa Aurelia Putri.webp",
+    photo: "/images/sto/danus/Caesa.webp",
   },
   {
     name: "Merlina Setyaningrum",
     position: "Staff Departemen",
-    photo: "/images/sto/danus/Merlina Setiyaningrum.webp",
+    photo: "/images/sto/danus/Merlina.webp",
   },
   {
     name: "Nurul Hidayah Fitriana",
     position: "Staff Departemen",
-    photo: "/images/sto/danus/Nurul Hidayah Fitriana.webp",
+    photo: "/images/sto/danus/Nurul.webp",
   },
   {
     name: "Hadiatun Nurfadilah",
@@ -409,22 +409,22 @@ const departemenMaintenance = [
   {
     name: "Miftachussurur",
     position: "Kepala Departemen",
-    photo: "/images/sto/maintenance/Miftachussurur.png",
+    photo: "/images/sto/maintenance/surur.webp",
   },
   {
     name: "Bunga Putri Ema A.",
     position: "Staff Departemen",
-    photo: "/images/sto/maintenance/Bunga Putri Ema Aryani.webp",
+    photo: "/images/sto/maintenance/bunga.webp",
   },
   {
     name: "Raditya Hazza D.",
     position: "Staff Departemen",
-    photo: "/images/sto/maintenance/Raditya Hazza Dzulfiqar.webp",
+    photo: "/images/sto/maintenance/Hazza.webp",
   },
   {
     name: "Tubagus Pratama J.",
     position: "Staff Departemen",
-    photo: "/images/sto/maintenance/Tubagus Pratama Julianto.webp",
+    photo: "/images/sto/maintenance/tubagus.webp",
   },
 ];
 
@@ -432,32 +432,32 @@ const divisiWorkshop = [
   {
     name: "Aufaa Hamiidah A.",
     position: "Kepala Divisi",
-    photo: "/images/sto/workshop/Aufaa Hamiidah Aryana.webp",
+    photo: "/images/sto/workshop/Aufa.webp",
   },
   {
     name: "Ibrahim Aryan Faridzi",
     position: "Wakil Kepala Divisi",
-    photo: "/images/sto/workshop/Ibrahim Aryan Faridzi.webp",
+    photo: "/images/sto/workshop/ibrahim.webp",
   },
   {
     name: "Dimas Irsyad Maulana",
     position: "Staff Divisi",
-    photo: "/images/sto/workshop/Dimas Irsyad Maulana.webp",
+    photo: "/images/sto/workshop/Dimas.webp",
   },
   {
     name: "Sabrina Shofia Anggi",
     position: "Staff Divisi",
-    photo: "/images/sto/workshop/Sabrina Shofia Anggi.webp",
+    photo: "/images/sto/workshop/Sabrina.webp",
   },
   {
     name: "Hanif Abdusy Syakur",
     position: "Staff Divisi",
-    photo: "/images/sto/workshop/Hanif Abdusy Syakur.webp",
+    photo: "/images/sto/workshop/Hanif.webp",
   },
   {
     name: "Nabila Khairunnisa D. P.",
     position: "Staff Divisi",
-    photo: "/images/sto/workshop/Nabila Khairunnisa Dian Pranata.webp",
+    photo: "/images/sto/workshop/nabila.webp",
   },
 ];
 
@@ -465,27 +465,27 @@ const departemenMultimedia = [
   {
     name: "Khilda Salsabila Azka",
     position: "Kepala Departemen",
-    photo: "/images/sto/multimedia/Khilda Salsabila Azka.webp",
+    photo: "/images/sto/multimedia/Khilda.webp",
   },
   {
     name: "Agung Hadi Astanto",
     position: "Staff Departemen",
-    photo: "/images/sto/multimedia/Agung Hadi Astanto.webp",
-  },
-  {
-    name: "Ni Made Ayu R. A.",
-    position: "Staff Departemen",
-    photo: "/images/sto/multimedia/Ni Made Ayu Ratna Anjalie.webp",
-  },
-  {
-    name: "Risqi Tia Sari",
-    position: "Staff Departemen",
-    photo: "/images/sto/multimedia/Risqi Tia Sari.webp",
+    photo: "/images/sto/multimedia/Agung.webp",
   },
   {
     name: "Atsiila Arya Nabiih",
     position: "Staff Departemen",
-    photo: "/images/sto/multimedia/Atsiila Arya Nabiih.webp",
+    photo: "/images/sto/multimedia/Arya.webp",
+  },
+  {
+    name: "Ni Made Ayu R. A.",
+    position: "Staff Departemen",
+    photo: "/images/sto/multimedia/Ni Made.webp",
+  },
+  {
+    name: "Risqi Tia Sari",
+    position: "Staff Departemen",
+    photo: "/images/sto/multimedia/tia sari.webp",
   },
 ];
 
@@ -493,27 +493,27 @@ const departemenSoftware = [
   {
     name: "Muhamad Haydar A. A.",
     position: "Kepala Departemen",
-    photo: "/images/sto/software/Muhamad Haydar Aydin Alhamdani.webp",
+    photo: "/images/sto/software/Haydar.webp",
   },
   {
     name: "Dena Windiarpuspa",
     position: "Staff Departemen",
-    photo: "/images/sto/software/Dena Windiarpuspa.webp",
+    photo: "/images/sto/software/Dena.webp",
   },
   {
     name: "Elang Argawana",
     position: "Staff Departemen",
-    photo: "/images/sto/software/Elang Argawana.webp",
+    photo: "/images/sto/software/Elang.webp",
   },
   {
     name: "Gilang Raka R.",
     position: "Staff Departemen",
-    photo: "/images/sto/software/Gilang Raka Ramadhan.webp",
+    photo: "/images/sto/software/Gilang.webp",
   },
   {
     name: "Warseno Bambang S.",
     position: "Staff Departemen",
-    photo: "/images/sto/software/Warseno Bambang Setyono.webp",
+    photo: "/images/sto/software/Warseno.webp",
   },
 ];
 
@@ -521,27 +521,27 @@ const departemenNetwork = [
   {
     name: "Aldo Ramadhana",
     position: "Kepala Departemen",
-    photo: "/images/sto/network/Aldo Ramadhana.webp",
+    photo: "/images/sto/network/Aldo.webp",
   },
   {
     name: "Alvin Putra Nurtan",
     position: "Staff Departemen",
-    photo: "/images/sto/network/Alvin Putra Nurtan.webp",
+    photo: "/images/sto/network/Alvin.webp",
   },
   {
     name: "Alwy Ma'shum",
     position: "Staff Departemen",
-    photo: "/images/sto/network/'Alwy Ma'shum.webp",
+    photo: "/images/sto/network/alwi.webp",
   },
   {
     name: "Muhamad Ariel G.",
     position: "Staff Departemen",
-    photo: "/images/sto/network/Muhamad Ariel Gunawan.webp",
+    photo: "/images/sto/network/Ariel.webp",
   },
   {
     name: "Mila Dewi Nurhidayah",
     position: "Staff Departemen",
-    photo: "/images/sto/network/Mila Dewi Nurhidayah.webp",
+    photo: "/images/sto/network/Mila.webp",
   },
 ];
 
