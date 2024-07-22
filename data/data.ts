@@ -20,23 +20,28 @@ const missions = [
 const navLinks = [
   {
     title: "About",
-    path: "#about",
+    path: "/",
+    targetId: "#about",
   },
   {
     title: "Event",
-    path: "#event",
+    path: "/",
+    targetId: "#event",
   },
   {
     title: "Gallery",
-    path: "#gallery",
+    path: "/",
+    targetId: "#gallery",
   },
   {
     title: "Kepengurusan",
-    path: "#kepengurusan",
+    path: "/",
+    targetId: "#kepengurusan",
   },
   {
     title: "Blog",
-    path: "#blog",
+    path: "/",
+    targetId: "#blog",
   },
 ];
 
@@ -47,7 +52,8 @@ const events = [
     image: "training-basic.webp",
     date: "2024-01-15",
     location: "POLINES",
-    description: "Training Basic merupakan salah satu program kerja UKM PCC yang bertujuan untuk memberikan pelatihan dan mengenalkan tiga bidang departemen dibawah Workshop UKM PCC, kepada calon anggota baru UKM PCC",
+    description:
+      "Training Basic merupakan salah satu program kerja UKM PCC yang bertujuan untuk memberikan pelatihan dan mengenalkan tiga bidang departemen dibawah Workshop UKM PCC, kepada calon anggota baru UKM PCC",
   },
   {
     id: 2,
@@ -79,52 +85,62 @@ const galleries = [
   {
     title: "sidum & raker",
     image: "/images/sidum-raker.webp",
-    description: "Sidum untuk menetapkan AD/ART, Raker untuk menetapkan kegiatan dan tujuan setahun UKM PCC.",
+    description:
+      "Sidum untuk menetapkan AD/ART, Raker untuk menetapkan kegiatan dan tujuan setahun UKM PCC.",
   },
   {
     title: "cakra & ppm",
     image: "/images/cakra-ppm.webp",
-    description: "Acara untuk memperkenalkan UKM PCC kepada Mahasiswa Baru dan bidang IT yang digeluti.",
+    description:
+      "Acara untuk memperkenalkan UKM PCC kepada Mahasiswa Baru dan bidang IT yang digeluti.",
   },
   {
     title: "makrab awal",
     image: "/images/gath-sto.webp",
-    description: "Acara kekeluargaan untuk menjalin kerukunan dan saling mengenal antar pengurus UKM PCC.",
+    description:
+      "Acara kekeluargaan untuk menjalin kerukunan dan saling mengenal antar pengurus UKM PCC.",
   },
   {
     title: "open house",
     image: "/images/open-house.webp",
-    description: "Memperkenalkan lebih dalam UKM PCC dan kegiatan-kegiatannya kepada calon anggota.",
+    description:
+      "Memperkenalkan lebih dalam UKM PCC dan kegiatan-kegiatannya kepada calon anggota.",
   },
   {
     title: "pendas & pab",
     image: "/images/pendas-pab.webp",
-    description: "Memberikan pendidikan dasar dan pembekalan kepada calon anggota aktif UKM PCC.",
+    description:
+      "Memberikan pendidikan dasar dan pembekalan kepada calon anggota aktif UKM PCC.",
   },
   {
     title: "hut pcc",
     image: "/images/hut-pcc.webp",
-    description: "Acara kekeluargaan untuk menjalin kerukunan dan saling mengenal antar pengurus UKM PCC.",
+    description:
+      "Acara kekeluargaan untuk menjalin kerukunan dan saling mengenal antar pengurus UKM PCC.",
   },
   {
     title: "Goes to Public",
     image: "/images/goestopublic.webp",
-    description: "Melakukan bakti sosial pada masyarakat agar dapat menerapkan tri dharma perguruan tinggi.",
+    description:
+      "Melakukan bakti sosial pada masyarakat agar dapat menerapkan tri dharma perguruan tinggi.",
   },
   {
     title: "techcomfest",
     image: "/images/techcomfest-semnas.webp",
-    description: "Acara tahunan UKM PCC untuk menyalurkan inovasi dan kreativitas dalam bidang teknologi dan informasi.",
+    description:
+      "Acara tahunan UKM PCC untuk menyalurkan inovasi dan kreativitas dalam bidang teknologi dan informasi.",
   },
   {
     title: "regenerasi",
     image: "/images/regenerasi-camin.webp",
-    description: "Peresmian dan pergantian anggota kepengurusan UKM PCC setelah Pengambilan Keputusan Bersama.",
+    description:
+      "Peresmian dan pergantian anggota kepengurusan UKM PCC setelah Pengambilan Keputusan Bersama.",
   },
   {
     title: "sertijab",
     image: "/images/gath-sto.webp",
-    description: "Pelantikan pengurus baru yang sebelumnya Anggota Aktif dan pelepasan jabatan pengurus lama sesuai AD/ART.",
+    description:
+      "Pelantikan pengurus baru yang sebelumnya Anggota Aktif dan pelepasan jabatan pengurus lama sesuai AD/ART.",
   },
 ];
 
@@ -133,7 +149,8 @@ const blogs = [
     id: 1,
     image: "/images/pcc.png",
     title: "Sukses Bangun Sistem Reseller?",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo quisquam voluptatem assumenda facilis harum dolore repudiandae accusamus alias, quidem nihil.",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo quisquam voluptatem assumenda facilis harum dolore repudiandae accusamus alias, quidem nihil.",
     category: "Bisnis",
     url: "",
   },
@@ -141,7 +158,8 @@ const blogs = [
     id: 2,
     image: "/images/pcc.png",
     title: "Kembangkan Bisnis Dengan Teknologi Informasi",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo quisquam voluptatem assumenda facilis harum dolore repudiandae accusamus alias, quidem nihil.",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo quisquam voluptatem assumenda facilis harum dolore repudiandae accusamus alias, quidem nihil.",
     category: "Bisnis",
     url: "",
   },
@@ -149,7 +167,8 @@ const blogs = [
     id: 3,
     image: "/images/pcc.png",
     title: "Cara Mengatasi Laptop Hang",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo quisquam voluptatem assumenda facilis harum dolore repudiandae accusamus alias, quidem nihil.",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo quisquam voluptatem assumenda facilis harum dolore repudiandae accusamus alias, quidem nihil.",
     category: "Elektronik",
     url: "",
   },
