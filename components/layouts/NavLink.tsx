@@ -1,23 +1,22 @@
 "use client";
 
 import Link from "next/link";
-import {useEffect, useRef} from "react";
+import {usePathname, useRouter} from "next/navigation";
 
 interface NavLinkProps {
   path: string;
   title: string;
+  targetId: string;
 }
 
-export default function NavLink({path, title}: NavLinkProps) {
-  const targetRef = useRef(null);
+export default function NavLink({path, title, targetId}: NavLinkProps) {
+  const pathname = usePathname();
+  const router = useRouter();
+  const routerPath = `${path}${targetId}`;
 
-  const handleClick = (
-    e: React.MouseEvent<HTMLAnchorElement, MouseEvent> | any
-  ) => {
+  const handleClick = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
     e.preventDefault();
-    const targetId = path.substring(1);
-    const targetElement =
-      document.getElementById(targetId) || targetRef.current;
+    const targetElement = document.getElementById(targetId.substring(1));
     if (targetElement) {
       const navbarHeight = document.querySelector("nav")?.offsetHeight || 0;
       const offsetPosition = targetElement.offsetTop - navbarHeight;
@@ -27,25 +26,15 @@ export default function NavLink({path, title}: NavLinkProps) {
         behavior: "smooth",
       });
     }
+    if (pathname === "/kepengurusan") {
+      router.push(routerPath);
+    }
   };
-
-  useEffect(() => {
-    const anchors = document.querySelectorAll(".scroll-link");
-    anchors.forEach((anchor) => {
-      anchor.addEventListener("click", handleClick);
-    });
-
-    return () => {
-      anchors.forEach((anchor) => {
-        anchor.removeEventListener("click", handleClick);
-      });
-    };
-  }, []);
 
   return (
     <li>
       <Link
-        href={path}
+        href={`${path}${targetId}`}
         className='scroll-link block py-2 pr-4 pl-3 rounded hover:bg-secondary md:hover:bg-transparent md:border-0 md:hover:text-quinary md:p-0 duration-300 '
         onClick={handleClick}
       >
