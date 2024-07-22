@@ -480,7 +480,7 @@ const departemenMultimedia = [
   {
     name: "Ni Made Ayu R. A.",
     position: "Staff Departemen",
-    photo: "/images/sto/multimedia/Ni Made.webp",
+    photo: "/images/sto/multimedia/Ni made.webp",
   },
   {
     name: "Risqi Tia Sari",
