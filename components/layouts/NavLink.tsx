@@ -26,16 +26,14 @@ export default function NavLink({path, title, targetId}: NavLinkProps) {
         behavior: "smooth",
       });
     }
-    if (pathname === "/kepengurusan") {
-      router.push(routerPath);
-    }
+    if (pathname === "/kepengurusan") router.push(routerPath);
   };
 
   return (
     <li>
       <Link
         href={`${path}${targetId}`}
-        className='scroll-link block py-2 pr-4 pl-3 rounded hover:bg-secondary md:hover:bg-transparent md:border-0 md:hover:text-quinary md:p-0 duration-300 '
+        className='block py-2 pr-4 pl-3 rounded hover:bg-secondary md:hover:bg-transparent md:border-0 md:hover:text-quinary md:p-0 duration-300 '
         onClick={handleClick}
       >
         {title}
