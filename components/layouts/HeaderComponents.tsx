@@ -80,7 +80,7 @@ export default function HeaderComponents() {
               </Link>
             </li>
             {navLinks.map((navLink, index) => (
-              <NavLink key={index} path={navLink.path} title={navLink.title} />
+              <NavLink key={index} path={navLink.path} title={navLink.title} targetId={navLink.targetId} />
             ))}
           </ul>
         </div>
