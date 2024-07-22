@@ -80,7 +80,7 @@ const galleries = [
     title: "temu awal",
     image: "/images/gath-sto.webp",
     description:
-      "Merupakan acara yang diadakan Pertama kali untuk mempertemukan seluruh anggota Pengurus UKM PCC lama dengan Anggota Pengurus yang baru",
+      "Acara yang diadakan Pertama kali untuk mempertemukan anggota Pengurus UKM PCC lama dengan Anggota Pengurus baru.",
   },
   {
     title: "sidum & raker",
