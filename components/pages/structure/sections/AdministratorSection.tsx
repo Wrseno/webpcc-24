@@ -13,7 +13,7 @@ export default function AdministratorSection() {
         hrWidth='w-full'
       />
       <SingleMemberCard
-        memberImage='/images/sto/administrator.webp'
+        memberImage='/images/sto/admin.webp'
         memberName='Moh Fatkhur Rahman'
         memberPosition='Administrator Pcc'
         isLeft
