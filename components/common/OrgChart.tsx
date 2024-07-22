@@ -1,10 +1,9 @@
 "use client";
 
-import React, {useState, useEffect, useRef} from "react";
+import React, {useState} from "react";
 import Link from "next/link";
 
 import {OrganizationChart} from "primereact/organizationchart";
-import {TreeNode} from "primereact/treenode";
 
 import {organization} from "@/data";
 
@@ -12,10 +11,8 @@ export default function OrgChart() {
   const [data] = useState(organization);
 
   const nodeTemplate = (node: any) => {
-    const targetRef = useRef(null);
-
     const handleClick = (
-      e: React.MouseEvent<HTMLAnchorElement, MouseEvent> | any
+      e: React.MouseEvent<HTMLAnchorElement, MouseEvent>
     ) => {
       e.preventDefault();
       let targetId;
@@ -24,8 +21,7 @@ export default function OrgChart() {
       } else {
         targetId = node?.href.substring(1);
       }
-      const targetElement =
-        document.getElementById(targetId) || targetRef.current;
+      const targetElement = document.getElementById(targetId);
       if (targetElement) {
         const navbarHeight = document.querySelector("nav")?.offsetHeight || 0;
         const offsetPosition = targetElement.offsetTop - navbarHeight;
@@ -36,19 +32,6 @@ export default function OrgChart() {
         });
       }
     };
-
-    useEffect(() => {
-      const anchors = document.querySelectorAll(".scroll-link");
-      anchors.forEach((anchor) => {
-        anchor.addEventListener("click", handleClick);
-      });
-
-      return () => {
-        anchors.forEach((anchor) => {
-          anchor.removeEventListener("click", handleClick);
-        });
-      };
-    }, []);
 
     if (node.type === "person") {
       return (
@@ -67,7 +50,7 @@ export default function OrgChart() {
     }
 
     return (
-      <Link href={node.href} className='scroll-link' onClick={handleClick}>
+      <Link href={node.href} onClick={handleClick}>
         {node.label}
       </Link>
     );
