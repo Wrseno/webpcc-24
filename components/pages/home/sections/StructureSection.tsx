@@ -5,7 +5,7 @@ import {IoIosArrowForward} from "react-icons/io";
 
 export default function Structure() {
   return (
-    <section className='' id='kepengurusan'>
+    <section id='kepengurusan'>
       <div className='pl-[15%] mt-20'>
         <SectionTitle
           firstTitle='ORGANISASI'
@@ -20,10 +20,7 @@ export default function Structure() {
       </div>
       <div className='relative w-full p-4 md:px-16 lg:px-32 text-senary'>
         <div className='grid sm:grid-cols-2 items-center justify-center'>
-          <MemberCard
-            imageUrl='/images/sto/administrator.webp'
-            alt='Administrator'
-          />
+          <MemberCard imageUrl='/images/sto/admin.webp' alt='Administrator' />
           <div
             className='mt-4 sm:mt-0 text-nonary mx-auto'
             data-aos='fade-left'
