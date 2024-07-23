@@ -218,17 +218,17 @@ const sekretaris = [
   {
     name: "Syifa Nur Hamida",
     position: "Sekretaris 1",
-    photo: "/images/sto/sekretaris/Syifa Nur Hamida.webp",
+    photo: "/images/sto/sekretaris/Syifa.webp",
   },
   {
     name: "Atina Nur Fahmi",
     position: "Sekretaris 2",
-    photo: "/images/sto/sekretaris/Atina Nur Fahmi.webp",
+    photo: "/images/sto/sekretaris/Atina.webp",
   },
   {
     name: "Khalisa Dian R.",
     position: "Sekretaris 3",
-    photo: "/images/sto/sekretaris/Khalisa Dian Ramadhani.webp",
+    photo: "/images/sto/sekretaris/Khalisa.webp",
   },
 ];
 
