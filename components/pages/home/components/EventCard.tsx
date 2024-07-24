@@ -39,14 +39,12 @@ export default function EventCard({
         </div>
       )}
       <div data-aos='fade-up'>
-        <SectionTitle
-          firstTitle={firstTitle}
-          spanTitle={spanTitle}
-          textColor='text-senary'
-          spanColor='text-quinary'
-          useBr={false}
-          useHr
-        />
+        <SectionTitle useHr hrWidth='w-1/2'>
+          <h2 className='text-2xl md:text-4xl font-bold mb-3 text-SENARY'>
+            <span className='font-bold text-quinary'>{spanTitle}</span>
+            {firstTitle}
+          </h2>
+        </SectionTitle>
         <p>{description}</p>
         <div className='flex gap-2 my-4'>
           <div className='flex flex-wrap items-center gap-2'>
