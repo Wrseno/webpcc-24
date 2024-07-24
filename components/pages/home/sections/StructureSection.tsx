@@ -7,16 +7,15 @@ export default function Structure() {
   return (
     <section id='kepengurusan'>
       <div className='pl-[15%] mt-20'>
-        <SectionTitle
-          firstTitle='ORGANISASI'
-          secondTitle='2024/2025'
-          spanTitle='STRUKTUR'
-          spanColor='text-quinary'
-          textColor='text-primary'
-          hrWidth='w-7/12'
-          useBr
-          useRightHr
-        />
+        <SectionTitle useRightHr hrWidth='w-9/12'>
+          <h2
+            className='text-2xl md:text-4xl font-bold mb-3 text-primary'
+            data-aos='fade-right'
+          >
+            <span className='font-bold text-quinary'>STRUKTUR</span>
+            ORGANISASI 2024/2025
+          </h2>
+        </SectionTitle>
       </div>
       <div className='relative w-full p-4 md:px-16 lg:px-32 text-senary'>
         <div className='grid sm:grid-cols-2 items-center justify-center'>
