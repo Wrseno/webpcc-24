@@ -21,14 +21,13 @@ export default function VisionSection() {
         className='p-4 md:p-12 shadow-one rounded-2xl bg-senary'
         data-aos='fade-left'
       >
-        <SectionTitle
-          spanTitle='VISI'
-          firstTitle='POLYTECHNIC'
-          secondTitle='COMPUTER CLUB'
-          spanColor='text-quinary'
-          useBr
-          useHr
-        />
+        <SectionTitle useHr hrWidth='w-9/12'>
+          <h2 className='text-2xl md:text-4xl font-bold mb-3'>
+            <span className='font-bold text-quinary'>VISI </span>
+            POLYTECHNIC <br />
+            COMPUTER CLUB
+          </h2>
+        </SectionTitle>
         <blockquote className='text-xs md:text-base text-octonary'>
           "Menjadikan UKM PCC sebagai wadah yang inofatif, adaptif, solutif,
           serta mengamalkan 7-layers PCC sebagai landasan berorganisasi."

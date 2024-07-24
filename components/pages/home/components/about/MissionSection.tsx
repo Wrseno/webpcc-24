@@ -9,14 +9,13 @@ export default function MissionSection() {
         data-aos='fade-right'
       >
         <div className='p-6 md:p-12'>
-          <SectionTitle
-            spanTitle='MISI'
-            firstTitle='POLYTECHNIC'
-            secondTitle='COMPUTER CLUB'
-            spanColor='text-quinary'
-            useBr
-            useHr
-          />
+          <SectionTitle useHr hrWidth='w-1/2'>
+            <h2 className='text-2xl md:text-4xl font-bold mb-3 text-senary'>
+              <span className='font-bold text-quinary'>MISI </span>
+              POLYTECHNIC <br />
+              COMPUTER CLUB
+            </h2>
+          </SectionTitle>
           <ol className='text-xs md:text-base'>
             {missions.map((miss, index) => (
               <li key={index}>
