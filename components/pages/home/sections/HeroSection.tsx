@@ -3,7 +3,6 @@ import Image from "next/image";
 export default function Hero() {
   return (
     <section className='relative w-full' id='home'>
-      {/* <div className='bg-gradient-to-b from-primary from-75% to-denary opacity-60 absolute top-0 left-0 w-full h-full'></div> */}
       <Image
         src='/images/heroimage-edited.webp'
         alt='Hero Image PCC'
