@@ -1,19 +1,17 @@
 "use client";
 
-import React, {useState} from "react";
+import React, { useState } from "react";
 import Link from "next/link";
 
-import {OrganizationChart} from "primereact/organizationchart";
+import { OrganizationChart } from "primereact/organizationchart";
 
-import {organization} from "@/data";
+import { organization } from "@/data";
 
 export default function OrgChart() {
   const [data] = useState(organization);
 
   const nodeTemplate = (node: any) => {
-    const handleClick = (
-      e: React.MouseEvent<HTMLAnchorElement, MouseEvent>
-    ) => {
+    const handleClick = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
       e.preventDefault();
       let targetId;
       if (node.type === "person") {
@@ -35,13 +33,9 @@ export default function OrgChart() {
 
     if (node.type === "person") {
       return (
-        <div className='flex flex-col'>
-          <div className='flex flex-col items-center'>
-            <Link
-              href={node.data.href}
-              className='scroll-link'
-              onClick={handleClick}
-            >
+        <div className="flex flex-col">
+          <div className="flex flex-col items-center">
+            <Link href={node.data.href} className="scroll-link" onClick={handleClick}>
               {node.data.title}
             </Link>
           </div>
@@ -57,7 +51,7 @@ export default function OrgChart() {
   };
 
   return (
-    <div className='card overflow-x-auto' data-aos='zoom-in'>
+    <div className="card overflow-x-auto" data-aos="zoom-in">
       <OrganizationChart value={data} nodeTemplate={nodeTemplate} />
     </div>
   );
