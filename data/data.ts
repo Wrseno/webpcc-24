@@ -13,7 +13,7 @@ const missions = [
   },
   {
     id: 4,
-    text: "Menambahkan jiwa loyalitas dan integritas dalam tiap anggota",
+    text: "Menanamkan jiwa loyalitas dan integritas dalam tiap anggota",
   },
 ];
 
