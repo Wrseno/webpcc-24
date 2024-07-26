@@ -1,23 +1,15 @@
+import {ReactNode} from "react";
+
 interface SectionTitleProps {
-  firstTitle: string;
-  secondTitle?: string;
-  spanTitle: string;
-  textColor?: string;
-  spanColor?: string;
+  children: ReactNode;
   hrWidth?: string;
   useLeftHr?: boolean;
   useRightHr?: boolean;
-  useBr: boolean;
   useHr?: boolean;
 }
 
 export default function SectionTitle({
-  firstTitle,
-  secondTitle,
-  spanTitle,
-  useBr,
-  textColor,
-  spanColor,
+  children,
   useLeftHr,
   useRightHr,
   useHr,
@@ -32,7 +24,7 @@ export default function SectionTitle({
             data-aos='zoom-in'
           />
         )}
-        <h2
+        {/* <h2
           className={`${textColor} text-2xl md:text-4xl font-bold mb-3`}
           data-aos={`${
             useRightHr ? "fade-right" : useLeftHr ? "fade-left" : ""
@@ -44,7 +36,8 @@ export default function SectionTitle({
           {firstTitle?.toUpperCase()}
           {useBr && <br />}
           {secondTitle?.toUpperCase()}
-        </h2>
+        </h2> */}
+        {children}
         {useRightHr && (
           <hr
             className={`${hrWidth} border-primary border-t-2 mb-4 md:border-t-4`}

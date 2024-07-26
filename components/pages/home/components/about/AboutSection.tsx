@@ -6,14 +6,12 @@ export default function AboutSection() {
       className='md:absolute md:w-[65%] lg:w-[55%] p-4 md:p-8 right-[4rem] lg:right-[8rem] bg-secondary rounded-2xl shadow-three'
       data-aos='fade-up-left'
     >
-      <SectionTitle
-        firstTitle='US'
-        spanTitle='ABOUT'
-        textColor='text-quinary'
-        spanColor='text-senary'
-        useBr={false}
-        useHr
-      />
+      <SectionTitle useHr hrWidth='w-1/2'>
+        <h2 className='text-2xl md:text-4xl font-bold mb-3 text-quinary'>
+          <span className='font-bold text-senary'>ABOUT</span>
+          US
+        </h2>
+      </SectionTitle>
       <div className='p-2 text-senary text-center text-xs lg:text-sm'>
         <p>
           UKM Polytechnic Computer Club yang disingkat UKM PCC merupakan salah
