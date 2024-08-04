@@ -24,19 +24,6 @@ export default function SectionTitle({
             data-aos='zoom-in'
           />
         )}
-        {/* <h2
-          className={`${textColor} text-2xl md:text-4xl font-bold mb-3`}
-          data-aos={`${
-            useRightHr ? "fade-right" : useLeftHr ? "fade-left" : ""
-          }`}
-        >
-          <span className={`${spanColor} font-bold`}>
-            {spanTitle?.toUpperCase()}{" "}
-          </span>{" "}
-          {firstTitle?.toUpperCase()}
-          {useBr && <br />}
-          {secondTitle?.toUpperCase()}
-        </h2> */}
         {children}
         {useRightHr && (
           <hr
