@@ -81,21 +81,3 @@ img {
   mask-image: linear-gradient(to bottom, #0c2753 50%, transparent 100%);
   overflow: hidden;
 }
-
-.swiper-button-prev,
-.swiper-button-next {
-  background-color: #0c2753 !important;
-  color: white !important;
-  padding: 2rem;
-  border-radius: 99px;
-}
-
-@media only screen and (max-width: 768px) {
-  .swiper-button-prev,
-  .swiper-button-next {
-    background-color: rgba(12, 38, 83, 0.3) !important;
-    color: white !important;
-    padding: 2rem;
-    border-radius: 99px;
-  }
-}
