@@ -23,6 +23,7 @@ export default function Blog() {
                 <BlogCard
                   key={index}
                   title={blog.title}
+                  date={blog.date}
                   description={blog.description}
                   image={blog.image}
                   url={blog.url}
@@ -33,6 +34,7 @@ export default function Blog() {
                 <BlogCard
                   key={index}
                   title={blog.title}
+                  date={blog.date}
                   description={blog.description}
                   image={blog.image}
                   url={blog.url}

@@ -27,6 +27,7 @@ const useWindowWidth = () => {
 
 interface BlogCardProps {
   title: string;
+  date: string;
   description: string;
   image: string;
   category: string;
@@ -36,6 +37,7 @@ interface BlogCardProps {
 
 export default function BlogCard({
   title,
+  date,
   description,
   image,
   category,
@@ -53,11 +55,14 @@ export default function BlogCard({
           isEven && width > 640 ? "order-1" : "order-2"
         } sm:ml-6 xl:ml-0`}
       >
-        <h3 className='mb-1 text-slate-900 font-semibold'>
+        <h3 className='mb-1 text-slate-900 font-semibold text-lg'>
           <span className='mb-1 block text-sm leading-6 text-indigo-500'>
             {category}
           </span>
           {title}
+        </h3>
+        <h3 className='mb-1 text-slate-700 font-medium text-sm'>
+          {date}
         </h3>
         <div className='prose prose-slate prose-sm text-slate-600'>
           <p>{description}</p>
@@ -91,7 +96,7 @@ export default function BlogCard({
         <Image
           src={image}
           alt={title}
-          className='w-[250px] h-[200px] mx-auto mb-6 shadow-md rounded-lg bg-slate-50 sm:mb-0 xl:mb-6'
+          className='w-[350px] h-[200px] mx-auto mb-6 shadow-md rounded-lg bg-slate-50 sm:mb-0 xl:mb-6'
           width={1000}
           height={1000}
         />

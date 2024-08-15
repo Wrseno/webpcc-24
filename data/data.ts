@@ -52,8 +52,7 @@ const events = [
     image: "training-basic.webp",
     date: "2024-01-15",
     location: "POLINES",
-    description:
-      "Training Basic merupakan salah satu program kerja UKM PCC yang bertujuan untuk memberikan pelatihan dan mengenalkan tiga bidang departemen dibawah Workshop UKM PCC, kepada calon anggota baru UKM PCC",
+    description: "Training Basic merupakan salah satu program kerja UKM PCC yang bertujuan untuk memberikan pelatihan dan mengenalkan tiga bidang departemen dibawah Workshop UKM PCC, kepada calon anggota baru UKM PCC",
   },
   {
     id: 2,
@@ -79,97 +78,87 @@ const galleries = [
   {
     title: "temu awal",
     image: "/images/gath-sto.webp",
-    description:
-      "Acara yang diadakan Pertama kali untuk mempertemukan anggota Pengurus UKM PCC lama dengan Anggota Pengurus baru.",
+    description: "Acara yang diadakan Pertama kali untuk mempertemukan anggota Pengurus UKM PCC lama dengan Anggota Pengurus baru.",
   },
   {
     title: "sidum & raker",
     image: "/images/sidum-raker.webp",
-    description:
-      "Sidum untuk menetapkan AD/ART, Raker untuk menetapkan kegiatan dan tujuan setahun UKM PCC.",
+    description: "Sidum untuk menetapkan AD/ART, Raker untuk menetapkan kegiatan dan tujuan setahun UKM PCC.",
   },
   {
     title: "cakra & ppm",
     image: "/images/cakra-ppm.webp",
-    description:
-      "Acara untuk memperkenalkan UKM PCC kepada Mahasiswa Baru dan bidang IT yang digeluti.",
+    description: "Acara untuk memperkenalkan UKM PCC kepada Mahasiswa Baru dan bidang IT yang digeluti.",
   },
   {
     title: "makrab awal",
-    image: "/images/gath-sto.webp",
-    description:
-      "Acara kekeluargaan untuk menjalin kerukunan dan saling mengenal antar pengurus UKM PCC.",
+    image: "/images/Makrab.webp",
+    description: "Acara kekeluargaan untuk menjalin kerukunan dan saling mengenal antar pengurus UKM PCC.",
   },
   {
     title: "open house",
-    image: "/images/open-house.webp",
-    description:
-      "Memperkenalkan lebih dalam UKM PCC dan kegiatan-kegiatannya kepada calon anggota.",
+    image: "/images/Open House.webp",
+    description: "Memperkenalkan lebih dalam UKM PCC dan kegiatan-kegiatannya kepada calon anggota.",
   },
   {
     title: "pendas & pab",
     image: "/images/pendas-pab.webp",
-    description:
-      "Memberikan pendidikan dasar dan pembekalan kepada calon anggota aktif UKM PCC.",
+    description: "Memberikan pendidikan dasar dan pembekalan kepada calon anggota aktif UKM PCC.",
   },
   {
     title: "hut pcc",
-    image: "/images/hut-pcc.webp",
-    description:
-      "Acara kekeluargaan untuk menjalin kerukunan dan saling mengenal antar pengurus UKM PCC.",
+    image: "/images/HUT.webp",
+    description: "Acara kekeluargaan untuk menjalin kerukunan dan saling mengenal antar pengurus UKM PCC.",
   },
   {
     title: "Goes to Public",
     image: "/images/goestopublic.webp",
-    description:
-      "Melakukan bakti sosial pada masyarakat agar dapat menerapkan tri dharma perguruan tinggi.",
+    description: "Melakukan bakti sosial pada masyarakat agar dapat menerapkan tri dharma perguruan tinggi.",
   },
   {
     title: "techcomfest",
     image: "/images/techcomfest-semnas.webp",
-    description:
-      "Acara tahunan UKM PCC untuk menyalurkan inovasi dan kreativitas dalam bidang teknologi dan informasi.",
+    description: "Acara tahunan UKM PCC untuk menyalurkan inovasi dan kreativitas dalam bidang teknologi dan informasi.",
   },
   {
     title: "regenerasi",
     image: "/images/regenerasi-camin.webp",
-    description:
-      "Peresmian dan pergantian anggota kepengurusan UKM PCC setelah Pengambilan Keputusan Bersama.",
+    description: "Peresmian dan pergantian anggota kepengurusan UKM PCC setelah Pengambilan Keputusan Bersama.",
   },
   {
     title: "sertijab",
-    image: "/images/gath-sto.webp",
-    description:
-      "Pelantikan pengurus baru yang sebelumnya Anggota Aktif dan pelepasan jabatan pengurus lama sesuai AD/ART.",
+    image: "/images/Sertijab.webp",
+    description: "Pelantikan pengurus baru yang sebelumnya Anggota Aktif dan pelepasan jabatan pengurus lama sesuai AD/ART.",
   },
 ];
 
 const blogs = [
   {
     id: 1,
-    image: "/images/pcc.png",
-    title: "Sukses Bangun Sistem Reseller?",
+    image: "/images/artikel-1.png",
+    title: "ALUR BELAJAR: FRONT END DAN BACK END DEVELOPER",
+    date: "15/08/2024",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo quisquam voluptatem assumenda facilis harum dolore repudiandae accusamus alias, quidem nihil.",
-    category: "Bisnis",
+      "Jadi sebelumnya apakah kamu tahu apa itu front end dan back end developer itu? jadi front end developer adalah Front-end developer adalah orang yang bertanggung jawab atas tampilan dan interaksi yang langsung dilihat dan digunakan oleh pengguna di sebuah website...",
+    category: "Software",
     url: "",
   },
   {
     id: 2,
-    image: "/images/pcc.png",
-    title: "Kembangkan Bisnis Dengan Teknologi Informasi",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo quisquam voluptatem assumenda facilis harum dolore repudiandae accusamus alias, quidem nihil.",
-    category: "Bisnis",
+    image: "/images/comingsoon.png",
+    title: "Coming Soon",
+    date: "15/09/2024",
+    description: "Coming soon, nantikanlah artikel menarik dari UKM PCC seputar dunia teknologi.",
+    category: "Network",
     url: "",
   },
   {
     id: 3,
-    image: "/images/pcc.png",
-    title: "Cara Mengatasi Laptop Hang",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo quisquam voluptatem assumenda facilis harum dolore repudiandae accusamus alias, quidem nihil.",
-    category: "Elektronik",
+    image: "/images/comingsoon.png",
+    title: "Coming Soon",
+    date: "15/10/2024",
+    description: "Coming soon, nantikanlah artikel menarik dari UKM PCC seputar dunia teknologi.",
+    category: "Multimedia",
     url: "",
   },
 ];
@@ -401,7 +390,7 @@ const departemenDanus = [
   {
     name: "Hadiatun Nurfadilah",
     position: "Staff Departemen",
-    photo: "/images/sto/danus/Hadiatun Nurfadilah.webp",
+    photo: "/images/sto/danus/hadiatun.webp",
   },
 ];
 
