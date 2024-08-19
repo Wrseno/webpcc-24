@@ -135,7 +135,7 @@ const galleries = [
 const blogs = [
   {
     id: 1,
-    image: "/images/artikel-1.png",
+    image: "/images/artikel-1.webp",
     title: "ALUR BELAJAR: FRONT END DAN BACK END DEVELOPER",
     date: "15/08/2024",
     description:
@@ -145,7 +145,7 @@ const blogs = [
   },
   {
     id: 2,
-    image: "/images/comingsoon.png",
+    image: "/images/comingsoon.webp",
     title: "Coming Soon",
     date: "15/09/2024",
     description: "Coming soon, nantikanlah artikel menarik dari UKM PCC seputar dunia teknologi.",
@@ -154,7 +154,7 @@ const blogs = [
   },
   {
     id: 3,
-    image: "/images/comingsoon.png",
+    image: "/images/comingsoon.webp",
     title: "Coming Soon",
     date: "15/10/2024",
     description: "Coming soon, nantikanlah artikel menarik dari UKM PCC seputar dunia teknologi.",
